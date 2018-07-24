@@ -8,12 +8,13 @@ This is a list of things I think every novice web developer should know first in
 
 ### How The First Web Site Came Into Being
 
-The article ["The World’s First Web Site"](https://www.history.com/news/the-worlds-first-web-site) (referred to as [1] below) tells concisely why the **World Wide Web (WWW)** was created. I'll briefly summarize here:
+When [Tim Berners-Lee](https://www.w3.org/People/Berners-Lee/) worked at [CERN](https://home.cern/), he found the information was scattered on many different computers and there was no easy way to access all in once, "sometimes you had to learn a different program on each computer." [1]
 
-- When [Tim Berners-Lee](https://www.w3.org/People/Berners-Lee/) worked at [CERN](https://home.cern/), he found the information was scattered on many different computers and there was no easy way to access all in once, "sometimes you had to learn a different program on each computer." [1]
-- To solve this problem, he proposed the initial idea of an information management system that "used hypertext to link documents on different computers that were connected to the Internet." [1]
-- By the end of 1990, he had developed the key technologies including **Hypertext Markup Language (HTML)**, **Hypertext Transfer Protocol (HTTP)**, **Uniform Resource Locators (URLs)**, a simple browser, and a web server program.
-- On August 6th, 1991, he published the [first website in the world](http://info.cern.ch/).
+To solve this problem, he proposed the initial idea of an information management system that "used hypertext to link documents on different computers that were connected to the Internet." [1]
+
+By the end of 1990, he had developed the key technologies including **Hypertext Markup Language (HTML)**, **Hypertext Transfer Protocol (HTTP)**, **Uniform Resource Locators (URLs)**, a simple browser, and a web server program.
+
+On August 6th, 1991, he published the [first website in the world](http://info.cern.ch/).
 
 ### Architectural View
 
@@ -76,3 +77,9 @@ As a result, if you want to target your code to all the major browsers, you'll h
 References:
 
 - [Handling common JavaScript problems](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/JavaScript)
+
+## References
+
+- [1] ["The World’s First Web Site"](https://www.history.com/news/the-worlds-first-web-site)
+- [2] [A Brief History of JavaScript](https://auth0.com/blog/a-brief-history-of-javascript/)
+- [3] [A brief history of CSS until 2016](https://www.w3.org/Style/CSS20/history.html)
