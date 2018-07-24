@@ -4,6 +4,21 @@
 
 This is a list of things I think every novice web developer should know first in order to speed up their learning.
 
+## The World First Web Site
+
+### How The First Web Site Came Into Being
+
+The article ["The World’s First Web Site"](https://www.history.com/news/the-worlds-first-web-site) (referred to as [1] below) tells concisely why the **World Wide Web (WWW)** was created. I'll briefly summarize here:
+
+- When [Tim Berners-Lee](https://www.w3.org/People/Berners-Lee/) worked at [CERN](https://home.cern/), he found the information was scattered on many different computers and there was no easy way to access all in once, "sometimes you had to learn a different program on each computer." [1]
+- To solve this problem, he proposed the initial idea of an information management system that "used hypertext to link documents on different computers that were connected to the Internet." [1]
+- By the end of 1990, he had developed the key technologies including **Hypertext Markup Language (HTML)**, **Hypertext Transfer Protocol (HTTP)**, **Uniform Resource Locators (URLs)**, a simple browser, and a web server program.
+- On August 6th, 1991, he published the [first website in the world](http://info.cern.ch/).
+
+### Architectural View
+
+Overall, a web site is in a [server-client architecture](https://en.wikipedia.org/wiki/Client%E2%80%93server_model). The server side is called the **back-end** while the client side is called **front-end**.
+
 ## The Three Major Components of Front-end Development
 
 To develop the front-end is to deal with the three components:
