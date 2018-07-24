@@ -29,6 +29,10 @@ On August 6th, 1991, he published the [first website in the world](http://info.c
 
 Overall, a web site is in a [server-client architecture](https://en.wikipedia.org/wiki/Client%E2%80%93server_model). The server side (the server program) is called the **back-end** while the client side (the browser) is called **front-end**.
 
+## The Emergence of CSS
+
+In the early days, the web pages written in HTML primarily described the content and structure and very limited style and layout because, as said in [3], "the separation of document structure from the document's layout had been a goal of HTML from its inception in 1990." **Cascading Style Sheets (CSS)** emerged as the technology to define the content style and layout.
+
 ## The Three Major Components of Front-end Development
 
 To develop the front-end is to deal with the three components:
