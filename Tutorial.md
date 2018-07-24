@@ -12,13 +12,22 @@ When [Tim Berners-Lee](https://www.w3.org/People/Berners-Lee/) worked at [CERN](
 
 To solve this problem, he proposed the initial idea of an information management system that "used hypertext to link documents on different computers that were connected to the Internet." [1]
 
-By the end of 1990, he had developed the key technologies including **Hypertext Markup Language (HTML)**, **Hypertext Transfer Protocol (HTTP)**, **Uniform Resource Locators (URLs)**, a simple browser, and a web server program.
+By the end of 1990, he had developed the key technologies including
+
+- [Hypertext Markup Language (HTML)](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics): Describe what content to be displayed and how the content is structure.
+- [Hypertext Transfer Protocol (HTTP)](https://developer.mozilla.org/en-US/docs/Web/HTTP): Is the communication protocol between the client side and the server side.
+- [Uniform Resource Locators (URLs)](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL): Specifies the unique address of a resource (typically a document) on the web.
+
+as well as
+
+- A simple browser
+- A web server program
 
 On August 6th, 1991, he published the [first website in the world](http://info.cern.ch/).
 
 ### Architectural View
 
-Overall, a web site is in a [server-client architecture](https://en.wikipedia.org/wiki/Client%E2%80%93server_model). The server side is called the **back-end** while the client side is called **front-end**.
+Overall, a web site is in a [server-client architecture](https://en.wikipedia.org/wiki/Client%E2%80%93server_model). The server side (the server program) is called the **back-end** while the client side (the browser) is called **front-end**.
 
 ## The Three Major Components of Front-end Development
 
