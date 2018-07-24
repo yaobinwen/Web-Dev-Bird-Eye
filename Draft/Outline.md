@@ -1,7 +1,6 @@
 # Outline
 
-- CSS
-  - [A brief history of CSS until 2016](https://www.w3.org/Style/CSS20/history.html)
+- HTML: **TODO:** Need explain what "structure" means.
 - DOM: How does JavaScript change the web page dynamically?
 - JavaScript
   - JS engines
