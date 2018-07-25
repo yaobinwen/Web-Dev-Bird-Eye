@@ -31,7 +31,7 @@ Overall, a web site is in a [server-client architecture](https://en.wikipedia.or
 
 ## The Emergence of CSS
 
-In the early days, the web pages written in HTML primarily described the content and structure and very limited style and layout because, as said in [3], "the separation of document structure from the document's layout had been a goal of HTML from its inception in 1990." **Cascading Style Sheets (CSS)** emerged as the technology to define the content style and layout.
+In the early days, the web pages written in HTML primarily described the content and structure and very limited style and layout because, as said in [2], "the separation of document structure from the document's layout had been a goal of HTML from its inception in 1990." **Cascading Style Sheets (CSS)** emerged as the technology to define the content style and layout.
 
 ## The Three Major Components of Front-end Development
 
@@ -94,5 +94,5 @@ References:
 ## References
 
 - [1] ["The World’s First Web Site"](https://www.history.com/news/the-worlds-first-web-site)
-- [2] [A Brief History of JavaScript](https://auth0.com/blog/a-brief-history-of-javascript/)
-- [3] [A brief history of CSS until 2016](https://www.w3.org/Style/CSS20/history.html)
+- [2] [A brief history of CSS until 2016](https://www.w3.org/Style/CSS20/history.html)
+- [3] [A Brief History of JavaScript](https://auth0.com/blog/a-brief-history-of-javascript/)
