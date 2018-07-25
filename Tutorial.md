@@ -33,6 +33,14 @@ Overall, a web site is in a [server-client architecture](https://en.wikipedia.or
 
 In the early days, the web pages written in HTML primarily described the content and structure and very limited style and layout because, as said in [2], "the separation of document structure from the document's layout had been a goal of HTML from its inception in 1990." **Cascading Style Sheets (CSS)** emerged as the technology to define the content style and layout.
 
+## The Emergence of JavaScript and DOM
+
+With the help of HTML and CSS, one would only be able to design web pages with static content. That is, once the style and layout of a page is decided, they won't be changed when the readers read them on their browsers.
+
+However, [Marc Andreessen](https://en.wikipedia.org/wiki/Marc_Andreessen) believed that the web content should become more dynamic, or, in another word, interactive. "Animations, interaction and other forms of small automation should be part of the web of the future." [3] As a result, JavaScript was created as a lightweight (by then) scripting language that could dynamically change the web page.
+
+In order to change the web page dynamically, there must be a way for JavaScript to precisely manipulate the content or style of a web page. Document Object Model (DOM) was therefore developed to meet this goal. DOM represents the HTML document in a "tree" structure. It also provides APIs to access this tree structure. JavaScript can call these APIs to manipulate the tree, hence the web page content. See [4] for more details.
+
 ## The Three Major Components of Front-end Development
 
 To develop the front-end is to deal with the three components:
@@ -96,3 +104,4 @@ References:
 - [1] ["The World’s First Web Site"](https://www.history.com/news/the-worlds-first-web-site)
 - [2] [A brief history of CSS until 2016](https://www.w3.org/Style/CSS20/history.html)
 - [3] [A Brief History of JavaScript](https://auth0.com/blog/a-brief-history-of-javascript/)
+- [4] [The W3C Document Object Model (DOM)](https://www.w3.org/2002/07/26-dom-article.html)
