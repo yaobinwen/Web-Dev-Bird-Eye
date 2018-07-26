@@ -9,3 +9,4 @@
 
 - [1] [JavaScript Transpilers: What They Are & Why We Need Them](https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-them)
 - [2] [You might not need to transpile your JavaScript](https://medium.freecodecamp.org/you-might-not-need-to-transpile-your-javascript-4d5e0a438ca)
+- [3] [What JavaScript Programmers Need to Know about Transpilers](https://thenewstack.io/javascript-transpilers-need-know/)
