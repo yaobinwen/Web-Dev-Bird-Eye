@@ -95,9 +95,26 @@ There are several online tools to check the compatability:
 
 As a result, if you want to target your code to all the major browsers, you'll have to use the common set of supported language features on all of them. But there is another solution to solve this problem so that you can still use new language features but target to older browsers, which we will talk about later.
 
-References:
+### Modules
 
-- [Handling common JavaScript problems](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/JavaScript)
+In the early days, JavaScript was only supported to be executed in the browsers. The JavaScript code could be embedded in the `<script>` tag in the HTML pages, and the browsers would run the script in a global context: every variable and function are defined in the global context. But [modularity](https://en.wikipedia.org/wiki/Modular_programming) has been proven a best practice in software engineering as it promotes the code reusability and prevents global namespace pollution.
+
+JavaScript was in lack of built-in support of modules for long time. The support wasn't officially added to the standard until ECMAScript 6 (in 2015). Before that, several other solutions were proposed and implemented.
+
+Below are the module solutions discussed in [5]:
+
+- `Object Literal pattern`
+- `Immediately Invoked Function Expression(IIFE)/Revealing Module pattern`
+- `CommonJS`
+  - [CommonJS](http://www.commonjs.org/) is a server side module solution. It gained popularity because of [`node.js`](https://nodejs.org)'s success because node.js, a server-side JavaScript runtime, implements CommonJS. In CommonJS, a module's members are exported via `module.export`; the consumer script refers to the module using `var m = require('module_name')`.
+  - CommonJS modules are also referred to as **"CJS modules"**.
+- `Asynchronous Module Definition(AMD)`
+  - [AMD](https://github.com/amdjs/amdjs-api) is a client-side module solution that is suitable for asynchronous environment. While CommonJS requires all the modules be loaded before any of them can be executed, AMD allows a module to be executed as long as it and all its dependencies are loaded, despite there are more other unrelated modules not yet loaded.
+- `Universal Module Definition(UMD)`
+  - UMD was "an attempt to mash AMD and CJS together." [5]
+- `ECMAScript 6 modules`
+  - This is JavaScript built-in module solution which uses `export` to export module members and `import` to include the required modules into the consumer scripts.
+  - ECMAScript 6 modules are also referred to as **"ES6 modules"**.
 
 ## References
 
@@ -105,3 +122,5 @@ References:
 - [2] [A brief history of CSS until 2016](https://www.w3.org/Style/CSS20/history.html)
 - [3] [A Brief History of JavaScript](https://auth0.com/blog/a-brief-history-of-javascript/)
 - [4] [The W3C Document Object Model (DOM)](https://www.w3.org/2002/07/26-dom-article.html)
+- [5] [Understanding ES6 Modules via Their History](https://www.sitepoint.com/understanding-es6-modules-via-their-history/)
+- [6] [Brief history of JavaScript Modules](https://medium.com/sungthecoder/javascript-module-module-loader-module-bundler-es6-module-confused-yet-6343510e7bde)
