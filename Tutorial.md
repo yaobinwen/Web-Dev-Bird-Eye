@@ -37,9 +37,9 @@ In the early days, the web pages written in HTML primarily described the content
 
 With the help of HTML and CSS, one would only be able to design web pages with static content. That is, once the style and layout of a page is decided, they won't be changed when the readers read them on their browsers.
 
-However, [Marc Andreessen](https://en.wikipedia.org/wiki/Marc_Andreessen) believed that the web content should become more dynamic, or, in another word, interactive. "Animations, interaction and other forms of small automation should be part of the web of the future." [3] As a result, JavaScript was created as a lightweight (by then) scripting language that could dynamically change the web page.
+However, [Marc Andreessen](https://en.wikipedia.org/wiki/Marc_Andreessen) believed that the web content should become more dynamic, or, in another word, interactive. "Animations, interaction and other forms of small automation should be part of the web of the future." [3] As a result, **JavaScript** was created as a lightweight (by then) scripting language that could dynamically change the web page.
 
-In order to change the web page dynamically, there must be a way for JavaScript to precisely manipulate the content or style of a web page. Document Object Model (DOM) was therefore developed to meet this goal. DOM represents the HTML document in a "tree" structure. It also provides APIs to access this tree structure. JavaScript can call these APIs to manipulate the tree, hence the web page content. See [4] for more details.
+In order to change the web page dynamically, there must be a way for JavaScript to manipulate the content or style of a web page. **Document Object Model (DOM)** was therefore developed to meet this goal. DOM represents the HTML document in a "tree" structure [4]. It also provides APIs to access this tree structure. JavaScript can call these APIs to manipulate the tree, hence the web page content. See [4] for more details.
 
 ## The Three Major Components of Front-end Development
 
@@ -49,7 +49,7 @@ To develop the front-end is to deal with the three components:
 - `Cascading Style Sheets (CSS)`: Describe the visual effect of the web page content defined by HTML.
 - `JavaScript`: Implemnet the user interaction of the web page with the user so the web page content, arrange, and visual effect can be dynamically changed as the user interacts with it.
 
-## JavaScript
+## More on JavaScript
 
 ### JavaScript and Java
 
@@ -64,28 +64,36 @@ You can read more [on the Wikipedia about how its name was changed in the early 
 
 ### JavaScript and ECMAScript
 
-JavaScript was created at Netscape, who later submitted it to [ECMA International](http://www.ecma-international.org/) for standardization, and [ECMAScript](http://www.ecma-international.org/publications/standards/Ecma-262.htm) is the name of the specification. Its index is `ECMA-262` and the ISO number [`ISO/IEC 16262`](https://www.iso.org/standard/55755.html), which you can find on [ECMA's list of standards](http://www.ecma-international.org/publications/standards/Standard.htm).
+JavaScript was created at Netscape, who later submitted it to [ECMA International](http://www.ecma-international.org/) for standardization, and [ECMAScript](http://www.ecma-international.org/publications/standards/Ecma-262.htm) is the name of the specification. Its index is `ECMA-262` and the ISO number is [`ISO/IEC 16262`](https://www.iso.org/standard/55755.html), which you can find on [ECMA's list of standards](http://www.ecma-international.org/publications/standards/Standard.htm).
 
-Therefore:
+In sum:
 
 - `ECMAScript` is the name of the standard specification.
 - `JavaScript` is the most popular implementation of the ECMAScript specification, but not the only one. [`ActionScript`](https://www.adobe.com/devnet/actionscript.html) and [`JScript`](https://msdn.microsoft.com/library/hbxc2t98.aspx) are the other well-known implementations.
 
 ### ECMAScript Versions
 
-You may hear people talking about "ECMAScript 6" or "ECMAScript 2015". You may be confused by how ECMAScript is versioned. [This page](https://www.w3schools.com/js/js_versions.asp) shows a summary of that.
+You may hear people talking about "ECMAScript 6" or "ECMAScript 2015". You may be confused by how ECMAScript is versioned. [This page from W3Schools](https://www.w3schools.com/js/js_versions.asp) has a summary of what the versions are all about.
 
-### Run-time Environment
+### Run-time Environment: Client Side and Server Side
 
-Traditionally, the JavaScript code is executed in the browsers. Because the browsers are used by the end users on the "client" side, such code is called "client-side JavaScript". In other words, you wouldn't be able to run JavaScript code outside of browsers before the "server-side" run-time environments emerged. All major browsers, Chrome, Firefox, Opera, Safari, IE, provide their run-time environment.
+Traditionally, the JavaScript code is executed in the browsers. Because the browsers are used by the end users on the "client" side, such code is called **"client-side JavaScript"**. In other words, you wouldn't be able to run JavaScript code outside of browsers before the "server-side" run-time environments were developed. All major browsers, such as Chrome, Firefox, Opera, Safari and IE, provide their run-time environments.
 
-Because the client side and the server side communicates via HTTP protocol, the technology stack on one side doesn't affect the other side. Therefore, although JavaScript is the most influencing technology of scripting on the client side, the server side doesn't have to be implemented using JavaScript. There are [a bunch of programming languages](https://en.wikipedia.org/wiki/Server-side_scripting#Languages) that can be used to implement a server program.
+Because the client side and the server side communicate via HTTP protocol, the technology stack on one side doesn't really affect the other side. Therefore, although JavaScript is the most influencing technology of scripting on the client side, the server side doesn't have to be implemented using JavaScript. There are [a bunch of programming languages](https://en.wikipedia.org/wiki/Server-side_scripting#Languages) that can be used to implement a server program.
 
 Nonetheless, Netscape provided their server-side JavaScript runtime ([Netscape Enterprise Server](https://en.wikipedia.org/wiki/Oracle_iPlanet_Web_Server#History)) soon after they released JavaScript for browsers. [Node.js](https://nodejs.org/en/) is a very popular server-side JavaScript runtime nowadays.
 
+### Run-time Environment: A Deeper Look
+
+Alexander's article ["How JavaScript works: an overview of the engine, the runtime, and the call stack"](https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf) provides a clear view of what a "run-time environment" actually consists of. You should definitely read his article. In sum, a run-time environment has the following components:
+
+- A **JavaScript Engine** that executes the JavaScript code. The JavaScript code is executed on the browser and by the engine that the browser uses. For example, Google Chrome's (client side) engine is called [V8](https://developers.google.com/v8/) which is also used by node.js (server side) as its engine. There are [many other JavaScript engines](https://en.wikipedia.org/wiki/JavaScript_engine#JavaScript_engines), too.
+- The **Web APIs** that can be called from JavaScript code to access the device hardware or the data stored on the hardware, such as the Bluetooth, battery status, camera, etc. See [7] for more details.
+- The **callback queue** and **event loop**: The internal infrastructure to implement the concurrency model of JavaScript. See [8] for more details.
+
 ### Run-time Environment Compatibilities
 
-Unfortunately, different run-time environments may implement the ECMAScript specification to different extent. If you want to target your JavaScript code to a run-time environment, you need to make sure your code doesn't use any feature that is not supported by that environment yet.
+Unfortunately, different run-time environments, or, technically, the JavaScript engines, may implement the ECMAScript specification to different extent. If you want to target your JavaScript code to a run-time environment, you need to make sure your code doesn't use any feature that is not supported by that environment yet.
 
 There are several online tools to check the compatability:
 
@@ -145,3 +153,5 @@ Its original name, "6to5", reflects the tool transpiles ECMAScript 6 code to ECM
 - [4] [The W3C Document Object Model (DOM)](https://www.w3.org/2002/07/26-dom-article.html)
 - [5] [Understanding ES6 Modules via Their History](https://www.sitepoint.com/understanding-es6-modules-via-their-history/)
 - [6] [Brief history of JavaScript Modules](https://medium.com/sungthecoder/javascript-module-module-loader-module-bundler-es6-module-confused-yet-6343510e7bde)
+- [7] [WebAPI](https://developer.mozilla.org/en-US/docs/WebAPI)
+- [8] [Concurrency model and Event Loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)
