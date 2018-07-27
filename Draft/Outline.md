@@ -3,7 +3,6 @@
 - HTML: **TODO:** Need explain what "structure" means.
 - JavaScript
   - JS engines
-  - Transpilation and Babel
   - Bundling and Minification
   - The ".js" Hats
 - WebAssembly
