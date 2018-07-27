@@ -116,6 +116,27 @@ Below are the module solutions discussed in [5]:
   - This is JavaScript built-in module solution which uses `export` to export module members and `import` to include the required modules into the consumer scripts.
   - ECMAScript 6 modules are also referred to as **"ES6 modules"**.
 
+### Transpilers
+
+A transpiler, or [source-to-source compiler](https://en.wikipedia.org/wiki/Source-to-source_compiler), is a type of compiler that translates the source code that's written in one programming language into the source code in another programming language, usually at similar level of abstraction.
+
+A traditional compiler is different from a transpiler at the abstraction level of the target code. For example, a C compiler translates the C source code into the machine code. They two are at quite different levels of abstraction, so it is more suitable to call it a "compiler". In contrast, a Python 2-to-3 tool translates Python 2 code to Python 3 code which is at the similar level of abstraction, so it is more suitable to call this tool a "transpiler".
+
+But you don't have to distinguish them so clearly. People usually understand what you mean with suitable conversation context.
+
+In the JavaScript world, there are two types of transpilers:
+
+- One type transpiles the source code of other programming languages, such as TypeScript and CoffeeScript, into JavaScript.
+- The other type transpiles the JavaScript code that uses new language features that are not supported by the browsers yet into the code that only uses the features that are well supported by all the mainstream browsers.
+
+[Babel](https://babeljs.io/) is one of the most well-known JavaScript transpiler that belongs to the second type. On the top of their front page says:
+
+> Babel is a JavaScript compiler.
+>
+> Use next generation JavaScript, today.
+
+Its original name, "6to5", reflects the tool transpiles ECMAScript 6 code to ECMAScript 5 code. 6to5 was later renamed to Babel, as pointed out in [this blog "Not Born to Die"](https://babeljs.io/blog/2015/02/15/not-born-to-die), in order to take on more responsibilities than transpiling code.
+
 ## References
 
 - [1] ["The World’s First Web Site"](https://www.history.com/news/the-worlds-first-web-site)
