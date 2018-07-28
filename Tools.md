@@ -14,6 +14,11 @@ Most of them have a ".js" hat on.
 - [rollup.js](https://rollupjs.org/guide/en): Its front page says rollup is "a module bundler for JavaScript which compiles small pieces of code into something larger and more complex, such as a library or application."
 - [webpack](http://webpack.github.io/): Its front page simply says "module bundler". But it shows a quite nice picture to visualize what "bundle" means.
 
+### Module Loader
+
+- [System.js](https://github.com/systemjs/systemjs): Dynamic ES module loader
+- [Require.js](https://requirejs.org/): RequireJS is a JavaScript file and module loader.
+
 ### Uncategorized
 
 - [Grunt](https://gruntjs.com/)
