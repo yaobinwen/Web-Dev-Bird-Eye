@@ -155,6 +155,14 @@ But note that bundling does not have to work with JavaScript code only. In fact,
 
 There are many bundling tools. See the section "Budnling Tools" in the "Tools".
 
+## The ".js" Hats (or Hell)
+
+Along the way of your learning you have probably come across many "something.js" things. They all have a ".js" suffix, but they are all different tools: some are modules (Require.js); some are development frameworks (React.js); some are runtimes (Node.js).
+
+All those ".js" names can quickly become overwhelming. In fact, this is one of the many reasons I want to write this tutorial: When these ".js" magicians keep showing you their ".js" hats, you need to grab and throw them away in order to see what they really are. Once you understand all the aspects that a web developer needs to care about, you can then put every ".js" magician to the correct position and understand it immediately.
+
+Nonetheless, a great person without ".js" is still great; a [jackass](https://www.npmjs.com/package/jackass) with a ".js" hat is still a jackass.
+
 ## References
 
 - [1] ["The World’s First Web Site"](https://www.history.com/news/the-worlds-first-web-site)
