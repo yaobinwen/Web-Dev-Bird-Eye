@@ -6,6 +6,8 @@ This is a collection of all the tools I have come across when learning web devel
 
 Most of them have a ".js" hat on.
 
+The tools are ordered alphabetically under each category.
+
 ## List
 
 ### Bundling Tools
@@ -16,14 +18,14 @@ Most of them have a ".js" hat on.
 
 ### Module Loader
 
-- [System.js](https://github.com/systemjs/systemjs): Dynamic ES module loader
 - [Require.js](https://requirejs.org/): RequireJS is a JavaScript file and module loader.
+- [System.js](https://github.com/systemjs/systemjs): Dynamic ES module loader
 
 ### Uncategorized
 
-- [Grunt](https://gruntjs.com/)
-- [jspm](https://jspm.org/)
-- [Brunch](http://brunch.io/)
 - [Broccoli.js](http://broccolijs.com/): The asset pipeline for ambitious applications.
-- [Sprockets](https://github.com/rails/sprockets): Rack-based asset packaging system
+- [Brunch](http://brunch.io/)
+- [Grunt](https://gruntjs.com/)
 - [Gulp.js](https://gulpjs.com/): Automate and enhance your workflow
+- [jspm](https://jspm.org/)
+- [Sprockets](https://github.com/rails/sprockets): Rack-based asset packaging system
