@@ -145,6 +145,16 @@ In the JavaScript world, there are two types of transpilers:
 
 Its original name, "6to5", reflects the tool transpiles ECMAScript 6 code to ECMAScript 5 code. 6to5 was later renamed to Babel, as pointed out in [this blog "Not Born to Die"](https://babeljs.io/blog/2015/02/15/not-born-to-die), in order to take on more responsibilities than transpiling code.
 
+### Bundling and Minification
+
+Modularity is a good engineering practice. But as [9] says:
+
+> Modules and libraries are all in separate files, which means that each file requires a `<script>` tag in the HTML. The HTML file is loaded on page load, and separate tags for each file means the module and library files would also have to be loaded one by one. This can be a time consuming process as projects get large. In order to reduce the number of requests for loading all the modules, you can bundle them into one or a few (if there are a lot) files. This is known as the build step. As part of bundling you can also minify the code, which is removing any unnecessary characters such as new lines, white spaces and comments. This also helps speed up bundling and the build process.
+
+But note that bundling does not have to work with JavaScript code only. In fact, all kinds of assets can be bundled: images, style sheets, JavaScript scripts, etc.. The point is: the fewer components the browser needs to load for your web site, the faster it is.
+
+There are many bundling tools. See the section "Budnling Tools" in the "Tools".
+
 ## References
 
 - [1] ["The World’s First Web Site"](https://www.history.com/news/the-worlds-first-web-site)
@@ -155,3 +165,4 @@ Its original name, "6to5", reflects the tool transpiles ECMAScript 6 code to ECM
 - [6] [Brief history of JavaScript Modules](https://medium.com/sungthecoder/javascript-module-module-loader-module-bundler-es6-module-confused-yet-6343510e7bde)
 - [7] [WebAPI](https://developer.mozilla.org/en-US/docs/WebAPI)
 - [8] [Concurrency model and Event Loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)
+- [9] [An Introduction to Javascript Modules and Bundling](http://code.hootsuite.com/an-introduction-to-javascript-modules-and-bundling/)
