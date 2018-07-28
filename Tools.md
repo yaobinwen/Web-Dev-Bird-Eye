@@ -28,4 +28,5 @@ The tools are ordered alphabetically under each category.
 - [Grunt](https://gruntjs.com/)
 - [Gulp.js](https://gulpjs.com/): Automate and enhance your workflow
 - [jspm](https://jspm.org/)
+- [Modernizr](https://modernizr.com/): Modernizr is "a collection of superfast tests – or “detects” as we like to call them – which run as your web page loads, then you can use the results to tailor the experience to the user."
 - [Sprockets](https://github.com/rails/sprockets): Rack-based asset packaging system
