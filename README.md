@@ -21,3 +21,8 @@ Why _true novice web developers_? Because I am one of them. I had desktop applic
 Being a true novice web developer, I have the advantage of knowing what can be the pain for others like me. Meanwhile, that's also a huge disadvantage: **I don't know a lot of things about web development and its history**. Although I will do my best homework, I will surely also make mistakes. If you find mistakes, have suggestions, or happen to know some helpful references, feel free to open an issue in this repository or shoot me an email.
 
 Really appreciate it!
+
+## The Files
+
+- [`Tutorial.md`](Tutorial.md): The main content of the tutorial.
+- [`Tools.md`](Tools.md): A collection of tools or libraries for web development.
