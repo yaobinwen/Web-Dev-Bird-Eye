@@ -1,6 +1,9 @@
 # Outline
 
 - HTML: **TODO:** Need explain what "structure" means.
+- HTTP cookies
+- MIME types
+- RESTful
 - WebAssembly
   - JIT JavaScript virtual machines
   - [Emscripten: An LLVM-to-JavaScript Compiler](https://github.com/kripken/emscripten)
