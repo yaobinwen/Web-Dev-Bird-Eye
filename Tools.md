@@ -21,12 +21,22 @@ The tools are ordered alphabetically under each category.
 - [Require.js](https://requirejs.org/): RequireJS is a JavaScript file and module loader.
 - [System.js](https://github.com/systemjs/systemjs): Dynamic ES module loader
 
+### Polyfills
+
+- [HTML5 Cross Browser Polyfills](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills)
+- [HTML5 Please](http://html5please.com/): "Look up HTML5, CSS3, etc features, know if they are ready for use, and if so find out how you should use them – with polyfills, fallbacks or as they are."
+- [Polyfill](https://polyfill.io/v2/docs/): "Just the polyfills you need for your site, tailored to each browser."
+- [Polyfill.js](https://philipwalton.github.io/polyfill/): "CSS Polyfilling Made Easy". But on 2016-12-22 the author said the library is no longer supported because of the article ["The Dark Side of Polyfilling CSS"](https://philipwalton.com/articles/the-dark-side-of-polyfilling-css/).
+- [Web Components: Polyfills](https://www.webcomponents.org/polyfills/)
+
 ### Uncategorized
 
+- [Bootstrap](https://getbootstrap.com/): "The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web."
 - [Broccoli.js](http://broccolijs.com/): The asset pipeline for ambitious applications.
 - [Brunch](http://brunch.io/)
 - [Grunt](https://gruntjs.com/)
 - [Gulp.js](https://gulpjs.com/): Automate and enhance your workflow
+- [jQuery](https://jquery.com/): "jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers."
 - [jspm](https://jspm.org/)
 - [Modernizr](https://modernizr.com/): Modernizr is "a collection of superfast tests – or “detects” as we like to call them – which run as your web page loads, then you can use the results to tailor the experience to the user."
 - [Sprockets](https://github.com/rails/sprockets): Rack-based asset packaging system
