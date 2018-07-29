@@ -100,6 +100,7 @@ There are several online tools to check the compatability:
 - [ECMAScript Compatibility Table](http://kangax.github.io/compat-table/es6/): This comprehensive table covers not only the desktop browsers but also the mobile browsers and server-side runtimes (such as Node).
 - [Node Green](https://node.green/): This is a subset of the table above that's specific to Node.js.
 - [Browser support for JavaScript APIs](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Browser_support_for_JavaScript_APIs)
+- [Can I use ___?](https://caniuse.com/#home)
 
 As a result, if you want to target your code to all the major browsers, you'll have to use the common set of supported language features on all of them. But there is another solution to solve this problem so that you can still use new language features but target to older browsers, which we will talk about later.
 
@@ -162,6 +163,22 @@ Along the way of your learning you have probably come across many "something.js"
 All those ".js" names can quickly become overwhelming. In fact, this is one of the many reasons I want to write this tutorial: When these ".js" magicians keep showing you their ".js" hats, you need to grab and throw them away in order to see what they really are. Once you understand all the aspects that a web developer needs to care about, you can then put every ".js" magician to the correct position and understand it immediately.
 
 Nonetheless, a great person without ".js" is still great; a [jackass](https://www.npmjs.com/package/jackass) with a ".js" hat is still a jackass.
+
+## The Polyfills (and Ponyfills)
+
+You may have heard people talking about "polyfills". The term "polyfill" was coined by [Remy Sharp](https://remysharp.com/about) and he talked about the history in the article [What is a Polyfill?](https://remysharp.com/2010/10/08/what-is-a-polyfill). He referred to [Paul Irish](https://www.paulirish.com/about/)'s [concise definition](https://www.paulirish.com/i/7570.png):
+
+> A shim that mimics a future API providing fallback functionality to older browsers.
+
+Many good articles have explained this topic well enough. I'll list them below and won't recreate the wheel.
+
+- [A Beginner’s Guide to HTML5 Cross-Browser Polyfills](https://www.sitepoint.com/html5-cross-browser-polyfills/): The highlight of this article is the explanation of polyfilling and transpiling.
+- [HTML5 Part 4: Using HTML5 while retaining support for older browsers](https://blogs.msdn.microsoft.com/jennifer/2011/08/04/html5-part-4-using-html5-while-retaining-support-for-older-browsers/): This article gives an example to show how a polyfill works.
+- [Your First Polyfill](https://javascriptplayground.com/writing-javascript-polyfill/): This article shows you how to implement a polyfill.
+
+A relative but slightly different thing is called ["ponyfill"](https://github.com/sindresorhus/ponyfill). As explained in the section ["How are ponyfills better than polyfills?"](https://github.com/sindresorhus/ponyfill#how-are-ponyfills-better-than-polyfills), a `ponyfill`
+
+> "...doesn't monkey patch anything, but instead exports the functionality as a normal module, so you can use it locally without affecting other code."
 
 ## References
 
