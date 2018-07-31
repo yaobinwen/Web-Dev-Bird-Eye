@@ -23,4 +23,5 @@ Many reasons:
   - [Part 1: A Beginner’s Guide](https://medium.freecodecamp.org/javascript-modules-a-beginner-s-guide-783f7d7a5fcc)
   - [Part 2: Module Bundling](https://medium.freecodecamp.org/javascript-modules-part-2-module-bundling-5020383cf306)
 - [The state of JavaScript modules](https://medium.com/webpack/the-state-of-javascript-modules-4636d1774358)
-- [INTRODUCING HTML5](https://introducinghtml5.com/)
+- [Introducing HTML5](https://introducinghtml5.com/)
+- [A primer on latency and bandwidth](https://www.oreilly.com/learning/primer-on-latency-and-bandwidth)
