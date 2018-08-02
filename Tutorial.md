@@ -15,8 +15,8 @@ To solve this problem, he proposed the initial idea of an information management
 By the end of 1990, he had developed the key technologies including
 
 - [Hypertext Markup Language (HTML)](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics): Describe what content to be displayed and how the content is structure.
-- [Hypertext Transfer Protocol (HTTP)](https://developer.mozilla.org/en-US/docs/Web/HTTP): Is the communication protocol between the client side and the server side.
 - [Uniform Resource Locators (URLs)](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL): Specifies the unique address of a resource (typically a document) on the web.
+- [Hypertext Transfer Protocol (HTTP)](https://developer.mozilla.org/en-US/docs/Web/HTTP): Is the communication protocol between the client side and the server side.
 
 as well as
 
@@ -25,9 +25,15 @@ as well as
 
 On August 6th, 1991, he published the [first website in the world](http://info.cern.ch/).
 
+The ["World First Website (Mock!)"](Code/World-first-website-mock/README.md) is a simple website that is made to look like the world's first website. You can run it on your local computer. Check its README file for details.
+
 ### Architectural View
 
 Overall, a web site is in a [server-client architecture](https://en.wikipedia.org/wiki/Client%E2%80%93server_model). The server side (the server program) is called the **back-end** while the client side (the browser) is called **front-end**.
+
+### Static Web Pages
+
+The first website has only static content. It's just a bunch of web pages that show information, no fancy visual effects or dynamic interaction. In fact, the simple browser Tim Berners-Lee developed supported some visual styles, but the styling work was left to the browsers thus was not standardized. As you'll see below, people soon found out the need for styling (CSS) and dynamic interaction (JavaScript).
 
 ## The Emergence of CSS
 
@@ -43,11 +49,13 @@ In order to change the web page dynamically, there must be a way for JavaScript 
 
 ## The Three Major Components of Front-end Development
 
-To develop the front-end is to deal with the three components:
+So far, the three major technologies to develop the front-end have all emerged:
 
 - `Hyper Text Markup Language(HTML)`: Describe the content and the arrangement of a web page.
 - `Cascading Style Sheets (CSS)`: Describe the visual effect of the web page content defined by HTML.
 - `JavaScript`: Implemnet the user interaction of the web page with the user so the web page content, arrange, and visual effect can be dynamically changed as the user interacts with it.
+
+The sample website ["FE-three-major-components"](Code/FE-three-major-components/README.md) shows an enhanced version of the "World First Website (Mock!)". Check out its README file for more details.
 
 ## More on JavaScript
 
