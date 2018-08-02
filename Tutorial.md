@@ -47,7 +47,7 @@ However, [Marc Andreessen](https://en.wikipedia.org/wiki/Marc_Andreessen) believ
 
 In order to change the web page dynamically, there must be a way for JavaScript to manipulate the content or style of a web page. **Document Object Model (DOM)** was therefore developed to meet this goal. DOM represents the HTML document in a "tree" structure [4]. It also provides APIs to access this tree structure. JavaScript can call these APIs to manipulate the tree, hence the web page content. See [4] for more details.
 
-## The Three Major Components of Front-end Development
+## The Three Major Technologies of Front-end Development
 
 So far, the three major technologies to develop the front-end have all emerged:
 
