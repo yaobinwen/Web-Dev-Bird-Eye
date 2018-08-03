@@ -34,6 +34,8 @@ The tools are ordered alphabetically under each category.
 - [Bootstrap](https://getbootstrap.com/): "The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web."
 - [Broccoli.js](http://broccolijs.com/): The asset pipeline for ambitious applications.
 - [Brunch](http://brunch.io/)
+- [Brython](https://brython.info/): A Python 3 implementation for client-side web programming, designed to replace Javascript as the scripting language for the Web.
+- [Express](http://expressjs.com/): Fast, unopinionated, minimalist web framework for Node.js.
 - [Grunt](https://gruntjs.com/)
 - [Gulp.js](https://gulpjs.com/): Automate and enhance your workflow
 - [jQuery](https://jquery.com/): "jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers."
