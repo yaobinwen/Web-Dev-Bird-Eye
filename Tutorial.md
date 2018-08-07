@@ -57,6 +57,12 @@ So far, the three major technologies to develop the front-end have all emerged:
 
 The sample website ["FE-three-major-components"](Code/FE-three-major-components/README.md) shows an enhanced version of the "World First Website (Mock!)". Check out its README file for more details.
 
+## A Little More on HTML and CSS
+
+Being a novice web developer, what I'm going to say immediately could be very wrong so I'm ready to change my mind if it is wrong. I personally feel HTML and CSS are not that difficult to learn because of its declarative nature: you declare what is wanted and the browser gives that to you. The challenge is you need to learn the specification and understand the described behaviors so you can choose the right features to use and use them correctly.
+
+In contrast, JavaScript is much more difficult to learn because it keeps evolving and many related technologies were developed to make the web surfing experience better. Therefore, to understand why JavaScript has a specific feature or why a technology was developed, one needs to know what aspects to consider when developing a web application.
+
 ## More on JavaScript
 
 ### JavaScript and Java
