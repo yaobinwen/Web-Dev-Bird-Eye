@@ -72,6 +72,7 @@ When working on a web application, one must take care of the following aspects t
   - [Considerations for Designing Distributed Systems](https://msdn.microsoft.com/en-us/library/dd129908.aspx)
   - [A Thorough Introduction to Distributed Systems](https://hackernoon.com/a-thorough-introduction-to-distributed-systems-3b91562c9b3c)
 - Others
+  - **MUST MENTION** [Roadmap to becoming a web developer in 2018](https://github.com/kamranahmedse/developer-roadmap)
   - [The Evolution of the Web](http://www.evolutionoftheweb.com/?hl=en)
   - [Best Practices for Speeding Up Your Web Site](https://developer.yahoo.com/performance/rules.html)
   - [A primer on latency and bandwidth](https://www.oreilly.com/learning/primer-on-latency-and-bandwidth)
