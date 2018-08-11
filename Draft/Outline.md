@@ -21,6 +21,7 @@ In general, the entire tutorial is divided into two parts: front-end and back-en
 - Software Engineering:
   - Look at [JavaScript Standard Style](https://standardjs.com/), a "JavaScript style guide, linter, and formatter".
   - [An Overview of JavaScript Testing in 2018](https://medium.com/welldone-software/an-overview-of-javascript-testing-in-2018-f68950900bc3)
+- [Web Fundamentals: Google's opinionated reference for building amazing web experiences.](https://developers.google.com/web/fundamentals/)
 
 ## Back-end Technologies
 
