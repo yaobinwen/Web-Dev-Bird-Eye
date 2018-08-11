@@ -2,11 +2,11 @@
 
 ## What This Is And Isn't
 
-This is a tutorial that looks at the web development technologies from the historical viewpoint. It lets you know what technologies are used for web development nowadays as well as **why** they were invented to solve what problems.
+This is a tutorial that shows you the web development technologies and how they are related with each other. It looks at them from a historical viewpoint so you will learn how they evolved and why they are what they are now.
 
-Although I may dive into the technical details whenever necessary, the tutorial does **NOT** intend to teach you how to use a particular technology. You won't see any detailed expalnation of what an HTML tag is or how to define a JavaScript function. There are millions of other tutorials for that purpose.
+Although I may dive into the technical details whenever necessary, the tutorial does **NOT** intend to teach you how to use a particular technology. You won't see any detailed expalnation of what an HTML tag is or how to define a JavaScript function. There are many other tutorials for that purpose.
 
-The point is: being a novice web developer, you don't know a lot of things. You don't even know what you don't know. This tutorial is trying to **show you what you don't know before so those "unknowns" now become "knowns" to you**. It's your next task to dive into the details. But finding out those unknowns can be a real pain.
+The point is: being a novice web developer, you don't know a lot of things. Finding out those unknowns can be a real pain. This tutorial is trying to **show you what you don't know so those "unknowns" will become "knowns"**. It's your next task to dive into the details.
 
 This also explains why I call this tutorial a "bird's-eye" one: a bird's-eye view won't give you a lot of details, but allows you to see the big picture.
 
