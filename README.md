@@ -1,5 +1,9 @@
 # Web Dev Bird Eye
 
+## Status
+
+This tutorial is not finished yet. Currently it puts more focus on the front-end.
+
 ## What This Is And Isn't
 
 This is a tutorial that shows you the web development technologies and how they are related with each other. It looks at them from a historical viewpoint so you will learn how they evolved and why they are what they are now.
