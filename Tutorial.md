@@ -31,15 +31,21 @@ The ["World First Website (Mock!)"](Code/World-first-website-mock/README.md) is 
 
 Overall, a web site is in a [server-client architecture](https://en.wikipedia.org/wiki/Client%E2%80%93server_model). The server side (the server program) is called the **back-end** while the client side (the browser) is called **front-end**.
 
-### Static Web Pages
+![D01: The Architectural View](./Diagrams/d01.svg)
 
-The first website has only static content. It's just a bunch of web pages that show information, no fancy visual effects or dynamic interaction. In fact, the simple browser Tim Berners-Lee developed supported some visual styles, but the styling work was left to the browsers thus was not standardized. As you'll see below, people soon found out the need for styling (CSS) and dynamic interaction (JavaScript).
+Therefore, to learn how to build a web site, you need to learn both back-end and front-end technologies. There are engineers that dedicated to the technologies on one end, but there are also those who understand the entire technology stack, hence called "full-stack engineers".
 
-## The Emergence of CSS
+### The First Website's Characteristics
+
+The first website has only **static** content. It's just a bunch of web pages that show information without fancy visual effects or dynamic interaction. In fact, the simple browser Tim Berners-Lee developed supported some visual styles, but the styling work was left to the browsers thus was not standardized. As you'll see below, people soon found out the need for styling (CSS) and dynamic interaction (JavaScript).
+
+## The Three Major Components of Front-end Development
+
+### The Emergence of CSS
 
 In the early days, the web pages written in HTML primarily described the content and structure and very limited style and layout because, as said in [2], "the separation of document structure from the document's layout had been a goal of HTML from its inception in 1990." **Cascading Style Sheets (CSS)** emerged as the technology to define the content style and layout.
 
-## The Emergence of JavaScript and DOM
+### The Emergence of JavaScript and DOM
 
 With the help of HTML and CSS, one would only be able to design web pages with static content. That is, once the style and layout of a page is decided, they won't be changed when the readers read them on their browsers.
 
@@ -47,7 +53,7 @@ However, [Marc Andreessen](https://en.wikipedia.org/wiki/Marc_Andreessen) believ
 
 In order to change the web page dynamically, there must be a way for JavaScript to manipulate the content or style of a web page. **Document Object Model (DOM)** was therefore developed to meet this goal. DOM represents the HTML document in a "tree" structure [4]. It also provides APIs to access this tree structure. JavaScript can call these APIs to manipulate the tree, hence the web page content. See [4] for more details.
 
-## The Three Major Technologies of Front-end Development
+### The Three Major Technologies
 
 So far, the three major technologies to develop the front-end have all emerged:
 
@@ -57,17 +63,27 @@ So far, the three major technologies to develop the front-end have all emerged:
 
 The sample website ["FE-three-major-components"](Code/FE-three-major-components/README.md) shows an enhanced version of the "World First Website (Mock!)". Check out its README file for more details.
 
+## Web Development Driving Forces
+
+There are several driving forces that shape the web development. Some forces influenced how the technologies evolved; other forces are those you need to consider to build in your web site:
+
+(TODO)
+
 ## A Little More on HTML and CSS
 
-Being a novice web developer, what I'm going to say immediately could be very wrong so I'm ready to change my mind if it is wrong. I personally feel HTML and CSS are not that difficult to learn because of its declarative nature: you declare what is wanted and the browser gives that to you. The challenge is you need to learn the specification and understand the described behaviors so you can choose the right features to use and use them correctly.
+Being a novice web developer, I personally feel HTML and CSS are not that difficult to learn because of its declarative nature: you declare what you want and the browser gives that to you. The challenge is you need to learn the specification and understand the described behaviors so you can choose the right features and use them correctly.
 
 In contrast, JavaScript is much more difficult to learn because it keeps evolving and many related technologies were developed to make the web surfing experience better. Therefore, to understand why JavaScript has a specific feature or why a technology was developed, one needs to know what aspects to consider when developing a web application.
 
-## More on JavaScript
+## Much More on JavaScript
+
+### Overview
+
+While HTML and CSS are not that difficult to learn, I personally find the JavaScript part raises the bar quite high for novice web developers. Although there are tutorials for each JavaScript-related technologies, they usually fail to give the readers an overview of how that technology fits into the big picture of the JavaScript ecosystem. Because of the lack in the big picture, when these tutorials start to refer to other technologies or jargons, the readers may get confused quite quickly. This section is trying to fix this. It puts the pieces together to show you the big picture of the JavaScript-related technologies, resolves some common misconceptions, and explains the jargons and how they are related.
 
 ### JavaScript and Java
 
-They are two different languages. They don't have much connection to each other. The point is: When you need to know how a JavaScript feature works, read its documentation. Do **NOT** try to deduce its behavior using your knowledge of Java's similar-looking features. That will hurt you some day, now or later.
+They are two different languages. They don't have much connection to each other. The point is: When you need to know how a JavaScript feature works, read its documentation. Do **NOT** try to figure out its behavior using your knowledge of Java's similar-looking features. That will hurt you some day, now or later.
 
 The [interview](https://www.infoworld.com/article/2653798/application-development/javascript-creator-ponders-past--future.html) to the JavaScript creator [Brendan Eich](https://en.wikipedia.org/wiki/Brendan_Eich) has this dialog to explain why JavaScript was called "Java":
 

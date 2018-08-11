@@ -1,0 +1,25 @@
+digraph {
+
+  // Nodes definition
+
+  browser [fillcolor="darkslategray1"; label="browser\n(front-end)"; style="filled"]
+  html [label="HTML"; shape=plaintext]
+  server [fillcolor="darkslategray1"; label="server\n(back-end)"; style="filled"]
+  url [label="URL"; shape=plaintext]
+  webpage [label="HTML document"; shape="rect"]
+
+  // Graphs
+
+  subgraph cluster_system{
+
+    graph [label="Web App"];
+
+    browser -> server [dir=both; label="HTTP"; style="dashed"];
+    browser -> webpage [label="displays"];
+    webpage -> url [label="contains"];
+    html -> webpage [label="implements"];
+  }
+
+  user -> browser [label="uses"];
+
+} 
