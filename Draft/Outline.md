@@ -44,7 +44,9 @@ When working on a web application, one must take care of the following aspects t
 ## Useful Links
 
 - Front-end
-  - [JavaScript Garden](http://bonsaiden.github.io/JavaScript-Garden): A Guide to JavaScript's Quirks and Flaws
+  - General:
+    - [The most essential list of resources for Front-End beginners](https://github.com/thedaviddias/Resources-Front-End-Beginner)
+    - [JavaScript Garden](http://bonsaiden.github.io/JavaScript-Garden): A Guide to JavaScript's Quirks and Flaws
   - JavaScript Modules:
     - [Part 1: A Beginner’s Guide](https://medium.freecodecamp.org/javascript-modules-a-beginner-s-guide-783f7d7a5fcc)
     - [Part 2: Module Bundling](https://medium.freecodecamp.org/javascript-modules-part-2-module-bundling-5020383cf306)
@@ -65,6 +67,8 @@ When working on a web application, one must take care of the following aspects t
     - [JavaScript — WTF is ES6, ES8, ES 2017, ECMAScript… ?](https://codeburst.io/javascript-wtf-is-es6-es8-es-2017-ecmascript-dca859e4821c)
     - [ES6 vs ES2015 - What to call a JavaScript version?](https://bytearcher.com/articles/es6-vs-es2015-name/)
     - [ES5, ES6, ES2016, ES.Next: What's going on with JavaScript versioning?](https://benmccormick.org/2015/09/14/es5-es6-es2016-es-next-whats-going-on-with-javascript-versioning/?utm_medium=email)
+  - Performance:
+    - [Front-End Performance Checklist](https://github.com/thedaviddias/Front-End-Performance-Checklist)
 
 - Back-end
   - [PRINCIPLES OF CHAOS ENGINEERING](http://principlesofchaos.org/)
