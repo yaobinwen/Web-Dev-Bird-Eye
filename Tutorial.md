@@ -59,7 +59,7 @@ So far, the three major technologies to develop the front-end have all emerged:
 
 - `Hyper Text Markup Language(HTML)`: Describe the content and the arrangement of a web page.
 - `Cascading Style Sheets (CSS)`: Describe the visual effect of the web page content defined by HTML.
-- `JavaScript`: Implemnet the user interaction of the web page with the user so the web page content, arrange, and visual effect can be dynamically changed as the user interacts with it.
+- `JavaScript`: Implement the user interaction of the web page with the user so the web page content, arrange, and visual effect can be dynamically changed as the user interacts with it.
 
 The sample website ["FE-three-major-components"](Code/FE-three-major-components/README.md) shows an enhanced version of the "World First Website (Mock!)". Check out its README file for more details.
 
@@ -125,9 +125,9 @@ Alexander's article ["How JavaScript works: an overview of the engine, the runti
 
 Unfortunately, different run-time environments, or, technically, the JavaScript engines, may implement the ECMAScript specification to different extent. If you want to target your JavaScript code to a run-time environment, you need to make sure your code doesn't use any feature that is not supported by that environment yet.
 
-There are several online tools to check the compatability:
+There are several online tools to check the compatibility:
 
-- [ECMAScript Compatibility Table](http://kangax.github.io/compat-table/es6/): This comprehensive table covers not only the desktop browsers but also the mobile browsers and server-side runtimes (such as Node).
+- [ECMAScript Compatibility Table](http://kangax.github.io/compat-table/es6/): This comprehensive table covers not only the desktop browsers but also the mobile browsers and server-side run-times (such as Node).
 - [Node Green](https://node.green/): This is a subset of the table above that's specific to Node.js.
 - [Browser support for JavaScript APIs](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Browser_support_for_JavaScript_APIs)
 - [Can I use ___?](https://caniuse.com/#home)
@@ -184,11 +184,11 @@ Modularity is a good engineering practice. But as [9] says:
 
 But note that bundling does not have to work with JavaScript code only. In fact, all kinds of assets can be bundled: images, style sheets, JavaScript scripts, etc.. The point is: the fewer components the browser needs to load for your web site, the faster it is.
 
-There are many bundling tools. See the section "Budnling Tools" in the "Tools".
+There are many bundling tools. See the section "Bundling Tools" in the "Tools".
 
 ## The ".js" Hats (or Hell)
 
-Along the way of your learning you have probably come across many "something.js" things. They all have a ".js" suffix, but they are all different tools: some are modules (Require.js); some are development frameworks (React.js); some are runtimes (Node.js).
+Along the way of your learning you have probably come across many "something.js" things. They all have a ".js" suffix, but they are all different tools: some are modules (Require.js); some are development frameworks (React.js); some are run-times (Node.js).
 
 All those ".js" names can quickly become overwhelming. In fact, this is one of the many reasons I want to write this tutorial: When these ".js" magicians keep showing you their ".js" hats, you need to grab and throw them away in order to see what they really are. Once you understand all the aspects that a web developer needs to care about, you can then put every ".js" magician to the correct position and understand it immediately.
 
