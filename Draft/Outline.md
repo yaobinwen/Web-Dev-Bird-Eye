@@ -4,6 +4,7 @@ In general, the entire tutorial is divided into two parts: front-end and back-en
 
 ## Front-end Technologies
 
+- [What is The Web?](https://www.youtube.com/playlist?list=PLo3w8EB99pqLEopnunz-dOOBJ8t-Wgt2g)
 - [HTTP cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
 - [MIME types](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types)
 - [RESTful](https://en.wikipedia.org/wiki/Representational_state_transfer)
@@ -47,6 +48,34 @@ When working on a web application, one must take care of the following aspects t
   - General:
     - [The most essential list of resources for Front-End beginners](https://github.com/thedaviddias/Resources-Front-End-Beginner)
     - [JavaScript Garden](http://bonsaiden.github.io/JavaScript-Garden): A Guide to JavaScript's Quirks and Flaws
+    - How JavaScript Works series:
+      - https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf
+      - https://blog.sessionstack.com/how-javascript-works-inside-the-v8-engine-5-tips-on-how-to-write-optimized-code-ac089e62b12e
+      - https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec
+      - https://blog.sessionstack.com/how-javascript-works-event-loop-and-the-rise-of-async-programming-5-ways-to-better-coding-with-2f077c4438b5
+      - https://blog.sessionstack.com/how-javascript-works-deep-dive-into-websockets-and-http-2-with-sse-how-to-pick-the-right-path-584e6b8e3bf7
+      - https://blog.sessionstack.com/how-javascript-works-a-comparison-with-webassembly-why-in-certain-cases-its-better-to-use-it-d80945172d79
+      - https://blog.sessionstack.com/how-javascript-works-the-building-blocks-of-web-workers-5-cases-when-you-should-use-them-a547c0757f6a
+      - https://blog.sessionstack.com/how-javascript-works-service-workers-their-life-cycle-and-use-cases-52b19ad98b58
+      - https://blog.sessionstack.com/how-javascript-works-the-mechanics-of-web-push-notifications-290176c5c55d
+      - https://blog.sessionstack.com/how-javascript-works-tracking-changes-in-the-dom-using-mutationobserver-86adc7446401
+      - https://blog.sessionstack.com/how-javascript-works-the-rendering-engine-and-tips-to-optimize-its-performance-7b95553baeda
+      - https://blog.sessionstack.com/how-javascript-works-inside-the-networking-layer-how-to-optimize-its-performance-and-security-f71b7414d34c
+      - https://blog.sessionstack.com/how-javascript-works-under-the-hood-of-css-and-js-animations-how-to-optimize-their-performance-db0e79586216
+      - https://blog.sessionstack.com/how-javascript-works-storage-engines-how-to-choose-the-proper-storage-api-da50879ef576
+      - https://blog.sessionstack.com/how-javascript-works-the-internals-of-shadow-dom-how-to-build-self-contained-components-244331c4de6e
+      - https://blog.sessionstack.com/how-javascript-works-iterators-tips-on-gaining-advanced-control-over-generators-41dc3eb3bc20
+      - https://blog.sessionstack.com/how-javascript-works-csrf-attacks-7-mitigation-strategies-757dfb08e7a6
+      - https://blog.sessionstack.com/how-javascript-works-5-types-of-xss-attacks-tips-on-preventing-them-e6e28327748a
+      - https://blog.sessionstack.com/how-javascript-works-exceptions-best-practices-for-synchronous-and-asynchronous-environments-39f66b59f012
+      - https://blog.sessionstack.com/how-javascript-works-webrtc-and-the-mechanics-of-peer-to-peer-connectivity-87cc56c1d0ab
+  - Promises:
+    - [Callback Hell](http://callbackhell.com/)
+    - [`then/promise`: Bare bones Promises/A+ implementation](https://github.com/then/promise)
+    - [Promises](https://www.promisejs.org/)
+    - [Promises/A+ specification](https://promisesaplus.com/)
+  - Fetch:
+    - [`node-fetch`: A light-weight module that brings the Fetch API to Node.js](https://github.com/node-fetch/node-fetch)
   - JavaScript Modules:
     - [Part 1: A Beginner’s Guide](https://medium.freecodecamp.org/javascript-modules-a-beginner-s-guide-783f7d7a5fcc)
     - [Part 2: Module Bundling](https://medium.freecodecamp.org/javascript-modules-part-2-module-bundling-5020383cf306)
@@ -69,7 +98,6 @@ When working on a web application, one must take care of the following aspects t
     - [ES5, ES6, ES2016, ES.Next: What's going on with JavaScript versioning?](https://benmccormick.org/2015/09/14/es5-es6-es2016-es-next-whats-going-on-with-javascript-versioning/?utm_medium=email)
   - Performance:
     - [Front-End Performance Checklist](https://github.com/thedaviddias/Front-End-Performance-Checklist)
-
 - Back-end
   - [PRINCIPLES OF CHAOS ENGINEERING](http://principlesofchaos.org/)
   - [A Simple Web Server](http://www.aosabook.org/en/500L/a-simple-web-server.html)
