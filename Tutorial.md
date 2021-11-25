@@ -1,87 +1,86 @@
-# Web Dev Bird Eye
+# Web Dev: A Bird's-eye View for Novice Web Developers to Speed Up Learning
 
-## Overview
+## 0. Overview: Why This Tutorial, and How I Write It?
 
-This is a list of things I think every novice web developer should know first in order to speed up their learning.
+When I started to learn web development, I soon encountered a few obstacles that hindered my progress even if I had been programming for a long time. The tutorials I followed gave me instructions to do certain things, but rarely did they explain why I needed to do them. Usually, this was not a problem as long as things worked well, but when I ran into issues, especially when the issues didn't seem to be in the code I was taught to write, I found trouble-shooting was difficult because I didn't know where else to look at: In a large jigsaw puzzle, I was only show a few pieces; when the issues happened in other pieces, I couldn't really do much unless I was shown with the big picture.
 
-## The World First Web Site
+That's my original motivation of writing this tutorial: I hope this tutorial can help the other novice web developers see all the pieces in the entire picture of web development (but without having to learn too many details) so they can see how one piece is connected with other pieces. When they find a bug in one piece but the root cause might be elsewhere, they know where else to look at.
 
-### How The First Web Site Came Into Being
+I thought about how to write this tutorial and finally I decided to take a historical perspective: I will start with how the world's first web site was developed and why people were not satisfied with the experience of using it, and thus developed various technologies to enhance the web experience. The entire web development ecosystem is centered around making the experience better and better.
 
-When [Tim Berners-Lee](https://www.w3.org/People/Berners-Lee/) worked at [CERN](https://home.cern/), he found the information was scattered on many different computers and there was no easy way to access all in once, "sometimes you had to learn a different program on each computer." [1]
+## 1. The World First Web Site
 
-To solve this problem, he proposed the initial idea of an information management system that "used hypertext to link documents on different computers that were connected to the Internet." [1]
+### 1.1 How The First Web Site Came Into Being
 
-By the end of 1990, he had developed the key technologies including
+When [Tim Berners-Lee](https://www.w3.org/People/Berners-Lee/) worked at [CERN](https://home.cern/), he found that information was scattered on many different computers and there was no easy way to access all in once. People had to log in different computers to get different information and "sometimes you had to learn a different program on each computer." [1]
 
-- [Hypertext Markup Language (HTML)](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics): Describe what content to be displayed and how the content is structure.
-- [Uniform Resource Locators (URLs)](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL): Specifies the unique address of a resource (typically a document) on the web.
-- [Hypertext Transfer Protocol (HTTP)](https://developer.mozilla.org/en-US/docs/Web/HTTP): Is the communication protocol between the client side and the server side.
+To solve this problem, he proposed the initial idea of an information management system that "used hypertext to link documents on different computers that were connected to the Internet." [1] By the end of 1990, he had developed the key technologies including
 
-as well as
-
-- A simple browser
-- A web server program
+- [**Hypertext Markup Language (HTML)**](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics) describes what contents to display.
+- [**Uniform Resource Locators (URLs)**](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL) specifies the unique address of a resource (typically a document) on the web so people can find the resource.
+- [**Hypertext Transfer Protocol (HTTP)**](https://developer.mozilla.org/en-US/docs/Web/HTTP) is the communication protocol between the client side and the server side.
+- A simple browser.
+- A web server program.
 
 On August 6th, 1991, he published the [first website in the world](http://info.cern.ch/).
 
 The ["World First Website (Mock!)"](Code/World-first-website-mock/README.md) is a simple website that is made to look like the world's first website. You can run it on your local computer. Check its README file for details.
 
-### Architectural View
+### 1.2 Architectural View
 
 Overall, a web site is in a [server-client architecture](https://en.wikipedia.org/wiki/Client%E2%80%93server_model). The server side (the server program) is called the **back-end** while the client side (the browser) is called **front-end**.
 
 ![D01: The Architectural View](./Diagrams/d01.svg)
 
-Therefore, to learn how to build a web site, you need to learn both back-end and front-end technologies. There are engineers that dedicated to the technologies on one end, but there are also those who understand the entire technology stack, hence called "full-stack engineers".
+Therefore, to learn how to build a web site, you need to learn both back-end and front-end technologies. There are engineers that dedicated to the technologies on one end, but there are also those who understand the entire technology stack and are called "full-stack engineers."
 
-### The First Website's Characteristics
+### 1.3 The First Website's Characteristics
 
-The first website has only **static** content. It's just a bunch of web pages that show information without fancy visual effects or dynamic interaction. In fact, the simple browser Tim Berners-Lee developed supported some visual styles, but the styling work was left to the browsers thus was not standardized. As you'll see below, people soon found out the need for styling (CSS) and dynamic interaction (JavaScript).
+The first website has only **static** content: it's a bunch of web pages that show information without fancy visual effects or dynamic interaction. In fact, the simple browser Tim Berners-Lee developed supported some visual styles, but the styling work was left to the browsers thus was not standardized. As you'll see below, people soon found out the need for styling (so CSS was developed) and dynamic interaction (so JavaScript was developed).
 
-## The Three Major Components of Front-end Development
+## 2. The Three Major Components of Front-end Development
 
-### The Emergence of CSS
+### 2.1 The Emergence of CSS
 
-In the early days, the web pages written in HTML primarily described the content and structure and very limited style and layout because, as said in [2], "the separation of document structure from the document's layout had been a goal of HTML from its inception in 1990." **Cascading Style Sheets (CSS)** emerged as the technology to define the content style and layout.
+In the early days, the web pages written in HTML primarily described the contents and structure. HTML didn't focus on the visual style and layout of the web pages because, as said in [2], "the separation of document structure from the document's layout had been a goal of HTML from its inception in 1990." **Cascading Style Sheets (CSS)** emerged as the supplementary technology to define the content style and layout.
 
-### The Emergence of JavaScript and DOM
+### 2.2 The Emergence of JavaScript and DOM
 
 With the help of HTML and CSS, one would only be able to design web pages with static content. That is, once the style and layout of a page is decided, they won't be changed when the readers read them on their browsers.
 
-However, [Marc Andreessen](https://en.wikipedia.org/wiki/Marc_Andreessen) believed that the web content should become more dynamic, or, in another word, interactive. "Animations, interaction and other forms of small automation should be part of the web of the future." [3] As a result, **JavaScript** was created as a lightweight (by then) scripting language that could dynamically change the web page.
+However, [Marc Andreessen](https://en.wikipedia.org/wiki/Marc_Andreessen) believed that the web content should become more dynamic, or, in another word, interactive. "Animations, interaction and other forms of small automation should be part of the web of the future." [3] As a result, **JavaScript** was created as a lightweight (by then) scripting language that could dynamically change the web page as the responses to the user's actions on the web pages (e.g., clicking a button, moving the mouse, scrolling the page).
 
-In order to change the web page dynamically, there must be a way for JavaScript to manipulate the content or style of a web page. **Document Object Model (DOM)** was therefore developed to meet this goal. DOM represents the HTML document in a "tree" structure [4]. It also provides APIs to access this tree structure. JavaScript can call these APIs to manipulate the tree, hence the web page content. See [4] for more details.
+In order to change the web page dynamically, there must be a way for JavaScript to manipulate the content or style of the web page. **Document Object Model (DOM)** was therefore developed to meet this goal. DOM represents the HTML document in a "tree" structure [4] and also provides APIs to access this tree structure. JavaScript can call these APIs to manipulate the tree, hence the web page content. See [4] for more details.
 
-### The Three Major Technologies
+### 2.3 The Three Major Technologies
 
 So far, the three major technologies to develop the front-end have all emerged:
 
-- `Hyper Text Markup Language(HTML)`: Describe the content and the arrangement of a web page.
-- `Cascading Style Sheets (CSS)`: Describe the visual effect of the web page content defined by HTML.
-- `JavaScript`: Implement the user interaction of the web page with the user so the web page content, arrange, and visual effect can be dynamically changed as the user interacts with it.
+- `Hyper Text Markup Language(HTML)`: Describe the content of a web page.
+- `Cascading Style Sheets (CSS)`: Describe the visual effect of the web page.
+- `JavaScript`: Implement the user interaction of the web page with the user so the web page content and visual effect can be dynamically changed as the user interacts with it.
 
 The sample website ["FE-three-major-components"](Code/FE-three-major-components/README.md) shows an enhanced version of the "World First Website (Mock!)". Check out its README file for more details.
 
-## Web Development Driving Forces
+## 3. Web Development Driving Forces
 
 There are several driving forces that shape the web development. Some forces influenced how the technologies evolved; other forces are those you need to consider to build in your web site:
 
 (TODO)
 
-## A Little More on HTML and CSS
+## 4. A Little More on HTML and CSS
 
 Being a novice web developer, I personally feel HTML and CSS are not that difficult to learn because of its declarative nature: you declare what you want and the browser gives that to you. The challenge is you need to learn the specification and understand the described behaviors so you can choose the right features and use them correctly.
 
 In contrast, JavaScript is much more difficult to learn because it keeps evolving and many related technologies were developed to make the web surfing experience better. Therefore, to understand why JavaScript has a specific feature or why a technology was developed, one needs to know what aspects to consider when developing a web application.
 
-## Much More on JavaScript
+## 5. Much More on JavaScript
 
-### Overview
+### 5.1 Overview
 
 While HTML and CSS are not that difficult to learn, I personally find the JavaScript part raises the bar quite high for novice web developers. Although there are tutorials for each JavaScript-related technologies, they usually fail to give the readers an overview of how that technology fits into the big picture of the JavaScript ecosystem. Because of the lack in the big picture, when these tutorials start to refer to other technologies or jargons, the readers may get confused quite quickly. This section is trying to fix this. It puts the pieces together to show you the big picture of the JavaScript-related technologies, resolves some common misconceptions, and explains the jargons and how they are related.
 
-### JavaScript and Java
+### 5.2 JavaScript and Java
 
 They are two different languages. They don't have much connection to each other. The point is: When you need to know how a JavaScript feature works, read its documentation. Do **NOT** try to figure out its behavior using your knowledge of Java's similar-looking features. That will hurt you some day, now or later.
 
@@ -93,7 +92,7 @@ The [interview](https://www.infoworld.com/article/2653798/application-developmen
 
 You can read more [on the Wikipedia about how its name was changed in the early days](https://en.wikipedia.org/wiki/JavaScript#Beginnings_at_Netscape).
 
-### JavaScript and ECMAScript
+### 5.3 JavaScript and ECMAScript
 
 JavaScript was created at Netscape, who later submitted it to [ECMA International](http://www.ecma-international.org/) for standardization, and [ECMAScript](http://www.ecma-international.org/publications/standards/Ecma-262.htm) is the name of the specification. Its index is `ECMA-262` and the ISO number is [`ISO/IEC 16262`](https://www.iso.org/standard/55755.html), which you can find on [ECMA's list of standards](http://www.ecma-international.org/publications/standards/Standard.htm).
 
@@ -102,11 +101,11 @@ In sum:
 - `ECMAScript` is the name of the standard specification.
 - `JavaScript` is the most popular implementation of the ECMAScript specification, but not the only one. [`ActionScript`](https://www.adobe.com/devnet/actionscript.html) and [`JScript`](https://msdn.microsoft.com/library/hbxc2t98.aspx) are the other well-known implementations.
 
-### ECMAScript Versions
+### 5.4 ECMAScript Versions
 
 You may hear people talking about "ECMAScript 6" or "ECMAScript 2015". You may be confused by how ECMAScript is versioned. [This page from W3Schools](https://www.w3schools.com/js/js_versions.asp) has a summary of what the versions are all about.
 
-### Run-time Environment: Client Side and Server Side
+### 5.5 Run-time Environment: Client Side and Server Side
 
 Traditionally, the JavaScript code is executed in the browsers. Because the browsers are used by the end users on the "client" side, such code is called **"client-side JavaScript"**. In other words, you wouldn't be able to run JavaScript code outside of browsers before the "server-side" run-time environments were developed. All major browsers, such as Chrome, Firefox, Opera, Safari and IE, provide their run-time environments.
 
@@ -114,7 +113,7 @@ Because the client side and the server side communicate via HTTP protocol, the t
 
 Nonetheless, Netscape provided their server-side JavaScript runtime ([Netscape Enterprise Server](https://en.wikipedia.org/wiki/Oracle_iPlanet_Web_Server#History)) soon after they released JavaScript for browsers. [Node.js](https://nodejs.org/en/) is a very popular server-side JavaScript runtime nowadays.
 
-### Run-time Environment: A Deeper Look
+### 5.6 Run-time Environment: A Deeper Look
 
 Alexander's article ["How JavaScript works: an overview of the engine, the runtime, and the call stack"](https://blog.sessionstack.com/how-does-javascript-actually-work-part-1-b0bacc073cf) provides a clear view of what a "run-time environment" actually consists of. You should definitely read his article. In sum, a run-time environment has the following components:
 
@@ -122,7 +121,7 @@ Alexander's article ["How JavaScript works: an overview of the engine, the runti
 - The **Web APIs** that can be called from JavaScript code to access the device hardware or the data stored on the hardware, such as the Bluetooth, battery status, camera, etc. See [7] for more details.
 - The **callback queue** and **event loop**: The internal infrastructure to implement the concurrency model of JavaScript. See [8] for more details.
 
-### Run-time Environment Compatibilities
+### 5.7 Run-time Environment Compatibilities
 
 Unfortunately, different run-time environments, or, technically, the JavaScript engines, may implement the ECMAScript specification to different extent. If you want to target your JavaScript code to a run-time environment, you need to make sure your code doesn't use any feature that is not supported by that environment yet.
 
@@ -135,7 +134,7 @@ There are several online tools to check the compatibility:
 
 As a result, if you want to target your code to all the major browsers, you'll have to use the common set of supported language features on all of them. But there is another solution to solve this problem so that you can still use new language features but target to older browsers, which we will talk about later.
 
-### Modules
+### 5.8 Modules
 
 In the early days, JavaScript was only supported to be executed in the browsers. The JavaScript code could be embedded in the `<script>` tag in the HTML pages, and the browsers would run the script in a global context: every variable and function are defined in the global context. But [modularity](https://en.wikipedia.org/wiki/Modular_programming) has been proven a best practice in software engineering as it promotes the code reusability and prevents global namespace pollution.
 
@@ -156,7 +155,7 @@ Below are the module solutions discussed in [5]:
   - This is JavaScript built-in module solution which uses `export` to export module members and `import` to include the required modules into the consumer scripts.
   - ECMAScript 6 modules are also referred to as **"ES6 modules"**.
 
-### Transpilers
+### 5.9 Transpilers
 
 A transpiler, or [source-to-source compiler](https://en.wikipedia.org/wiki/Source-to-source_compiler), is a type of compiler that translates the source code that's written in one programming language into the source code in another programming language, usually at similar level of abstraction.
 
@@ -177,7 +176,7 @@ In the JavaScript world, there are two types of transpilers:
 
 Its original name, "6to5", reflects the tool transpiles ECMAScript 6 code to ECMAScript 5 code. 6to5 was later renamed to Babel, as pointed out in [this blog "Not Born to Die"](https://babeljs.io/blog/2015/02/15/not-born-to-die), in order to take on more responsibilities than transpiling code.
 
-### Bundling and Minification
+### 5.10 Bundling and Minification
 
 Modularity is a good engineering practice. But as [9] says:
 
@@ -187,7 +186,7 @@ But note that bundling does not have to work with JavaScript code only. In fact,
 
 There are many bundling tools. See the section "Bundling Tools" in the "Tools".
 
-## The ".js" Hats (or Hell)
+## 6. The ".js" Hats (or Hell)
 
 Along the way of your learning you have probably come across many "something.js" things. They all have a ".js" suffix, but they are all different tools: some are modules (Require.js); some are development frameworks (React.js); some are run-times (Node.js).
 
@@ -195,7 +194,7 @@ All those ".js" names can quickly become overwhelming. In fact, this is one of t
 
 Nonetheless, a great person without ".js" is still great; a [jackass](https://www.npmjs.com/package/jackass) with a ".js" hat is still a jackass.
 
-## The Polyfills (and Ponyfills)
+## 7. The Polyfills (and Ponyfills)
 
 You may have heard people talking about "polyfills". The term "polyfill" was coined by [Remy Sharp](https://remysharp.com/about) and he talked about the history in the article [What is a Polyfill?](https://remysharp.com/2010/10/08/what-is-a-polyfill). He referred to [Paul Irish](https://www.paulirish.com/about/)'s [concise definition](https://www.paulirish.com/i/7570.png):
 
@@ -203,7 +202,7 @@ You may have heard people talking about "polyfills". The term "polyfill" was coi
 
 Many good articles have explained this topic well enough. I'll list them below and won't recreate the wheel.
 
-- [A Beginner’s Guide to HTML5 Cross-Browser Polyfills](https://www.sitepoint.com/html5-cross-browser-polyfills/): The highlight of this article is the explanation of polyfilling and transpiling.
+- [A Beginner's Guide to HTML5 Cross-Browser Polyfills](https://www.sitepoint.com/html5-cross-browser-polyfills/): The highlight of this article is the explanation of polyfilling and transpiling.
 - [HTML5 Part 4: Using HTML5 while retaining support for older browsers](https://blogs.msdn.microsoft.com/jennifer/2011/08/04/html5-part-4-using-html5-while-retaining-support-for-older-browsers/): This article gives an example to show how a polyfill works.
 - [Your First Polyfill](https://javascriptplayground.com/writing-javascript-polyfill/): This article shows you how to implement a polyfill.
 
@@ -211,9 +210,9 @@ A relative but slightly different thing is called ["ponyfill"](https://github.co
 
 > "...doesn't monkey patch anything, but instead exports the functionality as a normal module, so you can use it locally without affecting other code."
 
-## References
+## 8. References
 
-- [1] ["The World’s First Web Site"](https://www.history.com/news/the-worlds-first-web-site)
+- [1] ["The World's First Web Site"](https://www.history.com/news/the-worlds-first-web-site)
 - [2] [A brief history of CSS until 2016](https://www.w3.org/Style/CSS20/history.html)
 - [3] [A Brief History of JavaScript](https://auth0.com/blog/a-brief-history-of-javascript/)
 - [4] [The W3C Document Object Model (DOM)](https://www.w3.org/2002/07/26-dom-article.html)
