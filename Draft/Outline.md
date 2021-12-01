@@ -33,7 +33,7 @@ In general, the entire tutorial is divided into two parts: front-end and back-en
 When working on a web application, one must take care of the following aspects to develop an application of high quality:
 
 - Availability
-- Backward compatibility: What if a client of newer version is communicatinng to an older version of server? Is this allowed? Consider versioning.
+- Backward compatibility: What if a client of newer version is communicating to an older version of server? Is this allowed? Consider versioning.
 - Operation
 - Performance
   - Caching
