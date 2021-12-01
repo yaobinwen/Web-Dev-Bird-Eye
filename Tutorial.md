@@ -1,12 +1,8 @@
 # Web Dev: A Bird's-eye View for Novice Web Developers to Speed Up Learning
 
-## 0. Overview: Why This Tutorial, and How I Write It?
+## 0. Overview
 
-When I started to learn web development, I soon encountered a few obstacles that hindered my progress even if I had been programming for a long time. The tutorials I followed gave me instructions to do certain things, but rarely did they explain why I needed to do them. Usually, this was not a problem as long as things worked well, but when I ran into issues, especially when the issues didn't seem to be in the code I was taught to write, I found trouble-shooting was difficult because I didn't know where else to look at: In a large jigsaw puzzle, I was only show a few pieces; when the issues happened in other pieces, I couldn't really do much unless I was shown with the big picture.
-
-That's my original motivation of writing this tutorial: I hope this tutorial can help the other novice web developers see all the pieces in the entire picture of web development (but without having to learn too many details) so they can see how one piece is connected with other pieces. When they find a bug in one piece but the root cause might be elsewhere, they know where else to look at.
-
-I thought about how to write this tutorial and finally I decided to take a historical perspective: I will start with how the world's first web site was developed and why people were not satisfied with the experience of using it, and thus developed various technologies to enhance the web experience. The entire web development ecosystem is centered around making the experience better and better.
+The idea way of reading this tutorial is to begin with the first section and go all the way to the end. The knowledge to understand earlier sections does not depend on the later sections.
 
 ## 1. The World First Web Site
 
