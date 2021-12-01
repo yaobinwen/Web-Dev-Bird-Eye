@@ -8,9 +8,11 @@ This tutorial is **NOT finished** yet.
 
 This tutorial is written with the _true novice web developers_ in mind.
 
-Why _true novice web developers_? Because I am one of them. I had desktop application software development experience but _zero_ experience of web development. When I started to learn it, I felt a lot of pain. I therefore decided to share my thoughts about what I believe is helpful for any other developers like me to overcome the initial learning stope. In other words, I believe **what I have listed in this tutorial are those first and fundamental things every novice developer should learn to speed up their later learning**.
+Why _true novice web developers_? Because I am one of them. I had desktop application software development experience but _zero_ experience of web development. When I started to learn it, I felt a lot of pain. I therefore decided to share my thoughts about what I believe is helpful for any other developers like me to overcome the initial learning stope. In other words, I believe **what I have listed in this tutorial are those first and fundamental things every novice developer should learn in order to speed up their later learning**.
 
-## What This Is And Isn't
+But it's better that these "true novice web developers" already have some programming experience: they are new to web programming, not new to programming.
+
+## What This Is and Isn't
 
 This is a tutorial that shows you the web development technologies and how they are related with each other. It looks at them from a historical viewpoint so you will learn how they evolved and why they are what they are now.
 
