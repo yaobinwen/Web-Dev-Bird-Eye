@@ -15,6 +15,7 @@ The tools are ordered alphabetically under each category.
 - [Browserify](http://browserify.org/): Its front page says Browserify "lets you require('modules') in the browser by bundling up all of your dependencies."
 - [rollup.js](https://rollupjs.org/guide/en): Its front page says rollup is "a module bundler for JavaScript which compiles small pieces of code into something larger and more complex, such as a library or application."
 - [webpack](http://webpack.github.io/): Its front page simply says "module bundler". But it shows a quite nice picture to visualize what "bundle" means.
+- [Parcel](https://parceljs.org/): A zero configuration build tool for the web.
 
 ### Module Loader
 
