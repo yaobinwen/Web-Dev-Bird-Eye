@@ -62,7 +62,17 @@ The sample website ["FE-three-major-components"](Code/FE-three-major-components/
 
 There are several driving forces that shape the web development. Some forces influenced how the technologies evolved; other forces are those you need to consider to build in your web site:
 
-(TODO)
+- Availability
+- Backward compatibility: What if a client of newer version is communicating to an older version of server? Is this allowed? Consider versioning.
+- Operation
+- Performance
+  - Time related: faster response. This is also related with user experience.
+    - Technologies: caching (fewer hops); load balancing; long polling (immediate response); client-side validation
+  - Resource related: consuming less resources (e.g., CPU, memory)
+    - Technologies: caching (doesn't hit servers every time); long polling (doesn't hit servers every time); ; client-side validation
+- Scalability
+- Security
+- User experience
 
 ## 4. A Little More on HTML and CSS
 
