@@ -1,8 +1,8 @@
-# Web Dev: A Bird's-eye View for Novice Web Developers to Speed Up Learning
+# Web Dev Bird's-Eye: A Bird's-eye View of Web Development to Help Novice Web Developers to Speed Up Learning.
 
 ## Status
 
-This tutorial is **NOT finished** yet.
+This tutorial is a **work in progress**. See the section ["I Need Help"](https://github.com/yaobinwen/Web-Dev-Birds-Eye#i-need-help-and-thanks).
 
 ## Who This Is For
 
