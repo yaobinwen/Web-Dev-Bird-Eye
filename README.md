@@ -28,6 +28,5 @@ Really appreciate it!
 
 ## To Continue Reading...
 
-[`Tutorial.md`](Tutorial.md) is the main content of the tutorial.
-
-[`Tools.md`](Tools.md) is a collection of tools or libraries for web development.
+- [`Tutorial.md`](Tutorial.md) is the main content of the tutorial.
+- [`Tools.md`](Tools.md) is a collection of tools or libraries for web development.
