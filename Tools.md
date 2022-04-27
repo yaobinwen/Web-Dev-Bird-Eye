@@ -43,4 +43,5 @@ The tools are ordered alphabetically under each category.
 - [jQuery](https://jquery.com/): "jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers."
 - [jspm](https://jspm.org/)
 - [Modernizr](https://modernizr.com/): Modernizr is "a collection of superfast tests – or “detects” as we like to call them – which run as your web page loads, then you can use the results to tailor the experience to the user."
+- [Sass: Syntactically Awesome Style Sheets](https://sass-lang.com/): Sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets.
 - [Sprockets](https://github.com/rails/sprockets): Rack-based asset packaging system
