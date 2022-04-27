@@ -37,6 +37,7 @@ The tools are ordered alphabetically under each category.
 - [Brunch](http://brunch.io/)
 - [Brython](https://brython.info/): A Python 3 implementation for client-side web programming, designed to replace Javascript as the scripting language for the Web.
 - [Express](http://expressjs.com/): Fast, unopinionated, minimalist web framework for Node.js.
+- [Haml](https://haml.info/about.html): "Haml is a markup language that’s used to cleanly and simply describe the HTML of any web document without the use of inline code."
 - [Grunt](https://gruntjs.com/)
 - [Gulp.js](https://gulpjs.com/): Automate and enhance your workflow
 - [jQuery](https://jquery.com/): "jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers."
